@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C36BACE1DAFEDF3008E215E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BACD1DAFEDF3008E215E /* main.m */; };
+		9C36BAD11DAFEDF3008E215E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BAD01DAFEDF3008E215E /* AppDelegate.m */; };
+		9C36BAD71DAFEDF3008E215E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BAD51DAFEDF3008E215E /* Main.storyboard */; };
+		9C36BAD91DAFEDF3008E215E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BAD81DAFEDF3008E215E /* Assets.xcassets */; };
+		9C36BADC1DAFEDF3008E215E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BADA1DAFEDF3008E215E /* LaunchScreen.storyboard */; };
+		9C36BAE51DB02EE4008E215E /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BAE41DB02EE4008E215E /* VideoPlayerViewController.m */; };
+		9C36BAE81DB13C70008E215E /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BAE71DB13C70008E215E /* VideoTableViewCell.m */; };
+		9C36BAEA1DB160B3008E215E /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BAE91DB160B3008E215E /* test.mp4 */; };
+		9C36BAED1DB526EC008E215E /* UIWindow+Visibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BAEC1DB526EC008E215E /* UIWindow+Visibility.m */; };
+		9C36BAF41DB5577B008E215E /* RealVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BAF31DB5577B008E215E /* RealVideoViewController.m */; };
+		9C36BAF61DB6A07E008E215E /* MikeCut.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BAF51DB6A07E008E215E /* MikeCut.mp4 */; };
+		9C36BAFA1DB7CC13008E215E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BAF91DB7CC13008E215E /* Media.xcassets */; };
+		AC6224D2DE3BF39755061BA3 /* libPods-iPadVideoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C75F202D29936B85500BE1A4 /* libPods-iPadVideoTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E5DA7FF5682827A5A79920 /* Pods-iPadVideoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadVideoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPadVideoTest/Pods-iPadVideoTest.release.xcconfig"; sourceTree = "<group>"; };
+		9C36BAC91DAFEDF3008E215E /* iPadVideoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadVideoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C36BACD1DAFEDF3008E215E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C36BACF1DAFEDF3008E215E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C36BAD01DAFEDF3008E215E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C36BAD61DAFEDF3008E215E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C36BAD81DAFEDF3008E215E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C36BADB1DAFEDF3008E215E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C36BADD1DAFEDF3008E215E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C36BAE31DB02EE4008E215E /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		9C36BAE41DB02EE4008E215E /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		9C36BAE61DB13C70008E215E /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		9C36BAE71DB13C70008E215E /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		9C36BAE91DB160B3008E215E /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		9C36BAEB1DB526EC008E215E /* UIWindow+Visibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Visibility.h"; sourceTree = "<group>"; };
+		9C36BAEC1DB526EC008E215E /* UIWindow+Visibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Visibility.m"; sourceTree = "<group>"; };
+		9C36BAF21DB5577B008E215E /* RealVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealVideoViewController.h; sourceTree = "<group>"; };
+		9C36BAF31DB5577B008E215E /* RealVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealVideoViewController.m; sourceTree = "<group>"; };
+		9C36BAF51DB6A07E008E215E /* MikeCut.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MikeCut.mp4; sourceTree = "<group>"; };
+		9C36BAF91DB7CC13008E215E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C75F202D29936B85500BE1A4 /* libPods-iPadVideoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPadVideoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22A751B792BB8BF471B816D /* Pods-iPadVideoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadVideoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPadVideoTest/Pods-iPadVideoTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C36BAC61DAFEDF3008E215E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6224D2DE3BF39755061BA3 /* libPods-iPadVideoTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A991C70DD54DBE918488F75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F22A751B792BB8BF471B816D /* Pods-iPadVideoTest.debug.xcconfig */,
+				02E5DA7FF5682827A5A79920 /* Pods-iPadVideoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C36BAC01DAFEDF3008E215E = {
+			isa = PBXGroup;
+			children = (
+				9C36BACB1DAFEDF3008E215E /* iPadVideoTest */,
+				9C36BACA1DAFEDF3008E215E /* Products */,
+				9A991C70DD54DBE918488F75 /* Pods */,
+				AEE55116738AA2683BF859CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C36BACA1DAFEDF3008E215E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C36BAC91DAFEDF3008E215E /* iPadVideoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C36BACB1DAFEDF3008E215E /* iPadVideoTest */ = {
+			isa = PBXGroup;
+			children = (
+				9C36BACF1DAFEDF3008E215E /* AppDelegate.h */,
+				9C36BAD01DAFEDF3008E215E /* AppDelegate.m */,
+				9C36BAE31DB02EE4008E215E /* VideoPlayerViewController.h */,
+				9C36BAE41DB02EE4008E215E /* VideoPlayerViewController.m */,
+				9C36BAF21DB5577B008E215E /* RealVideoViewController.h */,
+				9C36BAF31DB5577B008E215E /* RealVideoViewController.m */,
+				9C36BAE61DB13C70008E215E /* VideoTableViewCell.h */,
+				9C36BAE71DB13C70008E215E /* VideoTableViewCell.m */,
+				9C36BAEB1DB526EC008E215E /* UIWindow+Visibility.h */,
+				9C36BAEC1DB526EC008E215E /* UIWindow+Visibility.m */,
+				9C36BAD51DAFEDF3008E215E /* Main.storyboard */,
+				9C36BAD81DAFEDF3008E215E /* Assets.xcassets */,
+				9C36BAF91DB7CC13008E215E /* Media.xcassets */,
+				9C36BADA1DAFEDF3008E215E /* LaunchScreen.storyboard */,
+				9C36BADD1DAFEDF3008E215E /* Info.plist */,
+				9C36BACC1DAFEDF3008E215E /* Supporting Files */,
+			);
+			path = iPadVideoTest;
+			sourceTree = "<group>";
+		};
+		9C36BACC1DAFEDF3008E215E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C36BAF51DB6A07E008E215E /* MikeCut.mp4 */,
+				9C36BAE91DB160B3008E215E /* test.mp4 */,
+				9C36BACD1DAFEDF3008E215E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE55116738AA2683BF859CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75F202D29936B85500BE1A4 /* libPods-iPadVideoTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C36BAC81DAFEDF3008E215E /* iPadVideoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C36BAE01DAFEDF3008E215E /* Build configuration list for PBXNativeTarget "iPadVideoTest" */;
+			buildPhases = (
+				BEA6E5750DFB97CAC23FCEB3 /* Check Pods Manifest.lock */,
+				9C36BAC51DAFEDF3008E215E /* Sources */,
+				9C36BAC61DAFEDF3008E215E /* Frameworks */,
+				9C36BAC71DAFEDF3008E215E /* Resources */,
+				2AB6B112C27167A45C0BF839 /* Embed Pods Frameworks */,
+				CC48AB59592E39E58BD2871D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadVideoTest;
+			productName = iPadVideoTest;
+			productReference = 9C36BAC91DAFEDF3008E215E /* iPadVideoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C36BAC11DAFEDF3008E215E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = KeyLimeTie;
+				TargetAttributes = {
+					9C36BAC81DAFEDF3008E215E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H72Y3J4J5V;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9C36BAC41DAFEDF3008E215E /* Build configuration list for PBXProject "iPadVideoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C36BAC01DAFEDF3008E215E;
+			productRefGroup = 9C36BACA1DAFEDF3008E215E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C36BAC81DAFEDF3008E215E /* iPadVideoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C36BAC71DAFEDF3008E215E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C36BAEA1DB160B3008E215E /* test.mp4 in Resources */,
+				9C36BADC1DAFEDF3008E215E /* LaunchScreen.storyboard in Resources */,
+				9C36BAD91DAFEDF3008E215E /* Assets.xcassets in Resources */,
+				9C36BAD71DAFEDF3008E215E /* Main.storyboard in Resources */,
+				9C36BAFA1DB7CC13008E215E /* Media.xcassets in Resources */,
+				9C36BAF61DB6A07E008E215E /* MikeCut.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB6B112C27167A45C0BF839 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPadVideoTest/Pods-iPadVideoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA6E5750DFB97CAC23FCEB3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC48AB59592E39E58BD2871D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iPadVideoTest/Pods-iPadVideoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C36BAC51DAFEDF3008E215E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C36BAE81DB13C70008E215E /* VideoTableViewCell.m in Sources */,
+				9C36BAE51DB02EE4008E215E /* VideoPlayerViewController.m in Sources */,
+				9C36BAF41DB5577B008E215E /* RealVideoViewController.m in Sources */,
+				9C36BAED1DB526EC008E215E /* UIWindow+Visibility.m in Sources */,
+				9C36BAD11DAFEDF3008E215E /* AppDelegate.m in Sources */,
+				9C36BACE1DAFEDF3008E215E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C36BAD51DAFEDF3008E215E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C36BAD61DAFEDF3008E215E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C36BADA1DAFEDF3008E215E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C36BADB1DAFEDF3008E215E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C36BADE1DAFEDF3008E215E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C36BADF1DAFEDF3008E215E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C36BAE11DAFEDF3008E215E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22A751B792BB8BF471B816D /* Pods-iPadVideoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = H72Y3J4J5V;
+				INFOPLIST_FILE = iPadVideoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keylimetie.iPadVideoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51404974-48af-415e-833f-8b0c6ef2ed78";
+				PROVISIONING_PROFILE_SPECIFIER = "AJ Video Test";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9C36BAE21DAFEDF3008E215E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E5DA7FF5682827A5A79920 /* Pods-iPadVideoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KeyLimeTie, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KeyLimeTie, LLC";
+				DEVELOPMENT_TEAM = H72Y3J4J5V;
+				INFOPLIST_FILE = iPadVideoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keylimetie.iPadVideoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51404974-48af-415e-833f-8b0c6ef2ed78";
+				PROVISIONING_PROFILE_SPECIFIER = "AJ Video Test";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C36BAC41DAFEDF3008E215E /* Build configuration list for PBXProject "iPadVideoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C36BADE1DAFEDF3008E215E /* Debug */,
+				9C36BADF1DAFEDF3008E215E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C36BAE01DAFEDF3008E215E /* Build configuration list for PBXNativeTarget "iPadVideoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C36BAE11DAFEDF3008E215E /* Debug */,
+				9C36BAE21DAFEDF3008E215E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C36BAC11DAFEDF3008E215E /* Project object */;
+}
